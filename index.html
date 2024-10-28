@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPS</title>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <div class="box1">
+            <h1>Tervetuloa pelaamaan tietokonetta vastaan peliä</h1>
+            <h2>KIVI PAPERI SAKSET</h2>
+            <p>Tee valintasi painamalla kuvaketta</p>
+
+           <div class="button-container">
+            <button id="kivi">
+                <img src="./kuvat/kivi.jpeg">
+            </button>
+
+            <button id="paperi">
+                <img src="./kuvat/paperi.jpeg">
+            </button>
+
+            <button id="sakset">
+                <img src="./kuvat/sakset.jpeg">
+            </button>
+           </div>
+
+           <div class="result-container">
+                <p>Valitsit: <span id="playerChoice"></span></p>
+                <p>Tietokone valitsi: <span id="computerChoice"></span></p>
+                <p id="result"></p>
+           </div>
+        </div>
+
+        <div class="box2">
+            <h1>PISTEET</h1>
+            <div class="score-container">
+                <p>Pelaaja: <span id="playerScore">0</span></p>
+                <p>Tietokone: <span id="computerScore">0</span></p>
+            </div>
+        </div>
+        
+    </div>
+  
+
+    <script src="./js/functions.js"></script>
+</body>
+</html>
